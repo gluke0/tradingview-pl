@@ -1,7 +1,7 @@
 new TradingView.widget(
     {
         "autosize": true,
-        "symbol": "BINANCE:BTCUSDT",
+        "symbol": "COINBASE:SOLUSDT",
         "interval": "240",
         "timezone": "ETC/UTC",
         "theme": "light",
@@ -13,11 +13,9 @@ new TradingView.widget(
         "hide_side_toolnar": false,
         "allow_symble_change": true,
         "watchlist": [
-            "BINANCE:BNBUSDT",
-            "BINANCE:BTCUSDT",
-            "COINBASE:CROUSDT",
-            "BINANCE:ETHUSDT",
-            "BINANCE:SOLUSDT",
+            "COINBASE:SOLUSDT",
+            "COINBASE:BTCUSDT",
+            "COINBASE:ETHUSDT",
         ],  
         "details": true,
         "hotlist": false,
@@ -32,4 +30,3 @@ new TradingView.widget(
         "popup_height": "650",
       }
 );
-
