@@ -4,3 +4,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html, body{
+    height: 100%;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.tradingview-widget-copyright{
+    width: 80%;
+    background: white;
+    text-transform: uppercase;
+    background-color: rgb(226, 231, 231);
+}
+
+.tradingview-widget-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chart{
+    width: 100%;
+    height: 100%;
+}
+
+.section-foot-text{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.8;
+    line-height: 0%;
+}
+
+.small-credits{
+    font-size: 0.4rem;
+    line-height: 0%;
+}
