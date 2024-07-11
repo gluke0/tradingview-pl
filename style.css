@@ -8,6 +8,8 @@
 html, body{
     height: 100%;
     background-image: url(fluro-black_LOGO.png);
+    background-size: 10%;
+    background-color: blueviolet!important;
 }
 
 .section{
