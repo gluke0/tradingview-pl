@@ -69,15 +69,15 @@ html, body{
 }
 
 .box .lulino-candle{
-    width: 11%;
+    width: 13%;
     position: absolute;
-    right: 15px;
+    right: -18px;
     bottom: 100px;
 }
 
 .box .lulino-strong{
-    width: 10%;
+    width: 11%;
     position: absolute;
-    left: 0px;
+    left: -10px;
     bottom: 700px;
 }
