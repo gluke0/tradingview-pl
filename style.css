@@ -56,6 +56,10 @@ html, body{
     line-height: 0%;
 }
 
+.lulo{
+    font-size: x-large;
+}
+
 /* stickers */
 .box{
     position: relative;
