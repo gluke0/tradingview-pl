@@ -7,8 +7,8 @@
 
 html, body{
     height: 100%;
-    background-image: url(./img/fluro-black_LOGO.png);
-    background-size: 5%;
+    /* background-image: url(./img/fluro-black_LOGO.png);
+    background-size: 6%; */
     background-color: #faf4ea!important;
 }
 
@@ -54,14 +54,23 @@ html, body{
     font-style: italic;
     font-size: 0.8;
     line-height: 0%;
+    margin-top: 2rem;
 }
 
 .lulo{
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .lulo:hover{
     cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='35' height='42' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>💰</text></svg>") 16 0,auto;
+}
+
+#logolink{
+    width: 9%;
+}
+
+hr{
+    color: transparent!important;
 }
 
 /* stickers */
@@ -70,7 +79,7 @@ html, body{
 }
   
 .box .lulino{
-    width: 7%;
+    width: 4.3%;
     position: absolute;
     top: 7px;
     right: 500px;
